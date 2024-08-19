@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background-color: var(--dark);
+    background-color: var(--white);
 }
 
 body {
@@ -75,12 +75,12 @@ a {
 
 a:hover,
 a.active {
-    color: var(--white);
+    color: var(--orange);
 }
 
 a:hover,
 a.active {
-    border-bottom: 1.5px solid var(--lightgrey);
+    border-bottom: 1.5px solid var(--orange);
 }
 
 .a-clean:hover,

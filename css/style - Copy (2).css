@@ -17,8 +17,7 @@
 
 .welcome-title {
     text-align: left;
-    font-size: 2em;
-    line-height: 1em;
+    font-size: 1em;
     color: var(--grey);
     font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Audiowide', sans-serif;
@@ -29,8 +28,6 @@
     font-family: 'Michroma', sans-serif;
     
     letter-spacing: 0.2em;
-    color: var(--orange);
-
 }
 
 .welcome-subtitle {
@@ -38,7 +35,7 @@
     font-family:"Barlow";
     letter-spacing: 0.3em;
     line-height: 1em;
-    color:var(--grey);
+    color:var(--main-light);
     margin-top: 10px;
 }
 
@@ -100,7 +97,7 @@
 }
 
 nav.navbar {
-    background-color: var(--light);
+    background-color: var(--dark);
     justify-content: people-between;
     align-items: center;
     height: unset !important;
