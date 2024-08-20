@@ -17,35 +17,42 @@
 
 .welcome-title {
     text-align: left;
-    font-size: 1.5em;
-    line-height: 1em;
+    font-size: 8em;
+    line-height: 1.2em;
     color: var(--grey);
-    /*font-family: 'Bai Jamjuree', sans-serif;
     
+    font-family: 'Bai Jamjuree', sans-serif;    
     font-family: 'Jura', sans-serif;
     font-family: 'Electrolize', sans-serif;
     font-family: 'Big Shoulders Display', sans-serif;
     font-family: 'Saira Semi Condensed', sans-serif;
-    font-family: 'Michroma', sans-serif;
-    
+     
     font-family: 'Luckiest Guy', sans-serif;
-    font-family: 'Lilita One', sans-serif;
-    font-family: 'Matemasie', sans-serif;*/
+    font-family: 'Lilita One', sans-serif; 
     font-family: 'Audiowide', sans-serif;
-
-
+    font-family: 'Matemasie', sans-serif; 
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Unbounded', sans-serif;
+    font-family: 'Jersey 10', sans-serif;
     
-    letter-spacing: 0.2em;
-    color: var(--orange);
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;
+    color: var(--magenta);
+    
+    background: linear-gradient(to bottom, #000000, #485fc7);
+    -webkit-background-clip: text;
+    color: transparent;
+    color: #292929;
+
+
+   
 
 }
 
 .welcome-subtitle {
-    font-size: 0.85em;
-    font-family:"Barlow";
+    font-size: 2em;
     letter-spacing: 0.3em;
-    line-height: 1em;
-    color:var(--grey);
+    line-height: 2em;
     margin-top: 10px;
     /*font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Audiowide', sans-serif;
@@ -55,8 +62,25 @@
     font-family: 'Saira Semi Condensed', sans-serif;
     font-family: 'Michroma', sans-serif;
     font-family: 'Matemasie', sans-serif;
-    font-family: 'Luckiest Guy', sans-serif;*/
+    font-family: 'Luckiest Guy', sans-serif;
     font-family: 'Electrolize', sans-serif;
+     font-family: 'Bai Jamjuree', sans-serif;    
+    font-family: 'Jura', sans-serif;
+    font-family: 'Electrolize', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif;
+     
+    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Lilita One', sans-serif; 
+    font-family: 'Audiowide', sans-serif;
+    font-family: 'Matemasie', sans-serif; 
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Unbounded', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;*/
+    font-family: 'Jersey 10', sans-serif;
+    
+   
 }
 
 .navbar-end {
@@ -117,13 +141,14 @@
 }
 
 nav.navbar {
-    background-color: var(--light);
     justify-content: people-between;
     align-items: center;
     height: unset !important;
     margin-left: 2em;
     margin-right: 2em;
     padding: 30px;
+    margin-top: 0.4em;
+    background-color: #f5f3ff;
 }
 
 .navbar-burger {
@@ -147,6 +172,16 @@ nav.navbar {
     font-family: 'Michroma', sans-serif;
     font-family: 'Matemasie', sans-serif;
     font-family: 'Luckiest Guy', sans-serif;*/
+    font-family: 'Climate Crisis', sans-serif;
+   /*   border: 5px solid blue;
+  border-radius: 50%; 
+  background-color: transparent;*/
+  margin: 30px;
+  margin-top: 100px;
+  transform: rotate(5deg);
+}
+a .menu {
+    color:black !important;
 }
 
 .margin-bottom-50 {
@@ -171,7 +206,7 @@ img.logo {
     font-size: smaller;
 }
 body {
-    font-family: 'Barlow';
+    font-family: 'Chivo';
 
 }
 
@@ -363,9 +398,9 @@ section .column img {
     height: 70px;
     font-size: xx-large;
     margin-bottom: 2em;
-    font-family: 'Barlow';
     letter-spacing: 0.1em;
     margin-left: 8px;
+    font-family: 'Climate Crisis', sans-serif;
 }
 
 .text-center {
@@ -482,4 +517,39 @@ section.work .columns .column {
         margin-top: 0;
     }
 
+}
+
+@keyframes shapeChange {
+  0% {
+    border-radius: 0%;
+    width: 100px;
+    height: 100px;
+  }
+  25% {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    border-radius: 0%;
+    width: 150px;
+    height: 100px;
+  }
+  75% {
+    border-radius: 50% 0%;
+    width: 120px;
+    height: 120px;
+  }
+  100% {
+    border-radius: 0%;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: #4CAF50;
+  animation: shapeChange 8s infinite;
 }
