@@ -149,10 +149,12 @@ nav.navbar {
     padding: 30px;
     margin-top: 0.4em;
     background-color: #f5f3ff;
+    background-image: url("https://freight.cargo.site/w/1000/q/75/i/f8b1edeb1fcdb53a0a8ecddc3670f4dedcb73aaae6eef82f40495a37bfc42e84/made_by_karan_facebook_messenger_ar_thumb.jpg");
+background-position: center;
+
 }
 
-.navbar-burger {
-    color: #ffffff;
+.navbar-burger {https://freight.cargo.site/w/1000/q/75/i/37ea47538bcbebc2ca3d7b7ad0df7ccc394c5f989a5e55115a0c205adb273d6b/made_by_karan_daisies_01.png
     height: 6rem;
 }
 
@@ -179,7 +181,19 @@ nav.navbar {
   margin: 30px;
   margin-top: 100px;
   transform: rotate(5deg);
+
+
+
+
+
+  /*border: 5px solid transparent;
+  border-image: linear-gradient(45deg, magenta, cyan, yellow) 1;
+border-radius: 50%; Начальная форма круга */
 }
+
+
+
+
 a .menu {
     color:black !important;
 }

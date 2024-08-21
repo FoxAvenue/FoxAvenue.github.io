@@ -78,7 +78,7 @@ a {
 
 a:hover,
 a.active {
-    color: var(--lightgrey);
+    color: var(--magenta);
     font-weight: bolder;
 }
 
