@@ -81,3 +81,31 @@
     }
 
 }
+@media (max-width: 1224px) {
+        .welcome-title {
+            max-width: 400px;
+            font-size: 3em;
+        }
+        .welcome-subtitle {
+            font-size: 1.4em;
+        }
+        .menu {
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+
+@media (max-width: 737px) {
+    .welcome-title {
+            max-width: 400px;
+            font-size: 3em;
+        }
+    }
+@media (max-width: 540px) {
+    .welcome-title {
+            max-width: 200px;
+        }
+            .welcome-subtitle {
+            font-size: 1em;
+        }
+    }

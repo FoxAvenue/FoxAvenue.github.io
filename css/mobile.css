@@ -79,7 +79,10 @@
         display: block;
     }
     .welcome-subtitle {
-        font-size: 0.7em;
+        font-size: 1.5em;
+    }
+    .welcome-title {
+        font-size: 4em;
     }
     .menu{
         margin-top: 40px;
