@@ -25,6 +25,7 @@
 
     .welcome-title {
         margin-left: 0px;
+        font-size: 7em;
     }
 
     .enter {
@@ -84,7 +85,6 @@
 @media (max-width: 1224px) {
         .welcome-title {
             max-width: 400px;
-            font-size: 3em;
         }
         .welcome-subtitle {
             font-size: 1.4em;
@@ -95,17 +95,17 @@
         }
     }
 
-@media (max-width: 737px) {
-    .welcome-title {
-            max-width: 400px;
-            font-size: 3em;
+@media (min-width: 769px) {
+        .menu {
+            margin-top: 30px;
+            text-align: right;
+            vertical-align: top;
+            height: 20%;
+            position: absolute;
+            right: 0;
+            max-width: 300px;
         }
-    }
-@media (max-width: 540px) {
-    .welcome-title {
-            max-width: 200px;
-        }
-            .welcome-subtitle {
-            font-size: 1em;
+        .welcome-title {
+            max-width: 800px;
         }
     }
