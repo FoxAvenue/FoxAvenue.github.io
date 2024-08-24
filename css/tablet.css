@@ -81,10 +81,11 @@
         max-width: 100%;
     }
 
+
 }
 @media (max-width: 1224px) {
         .welcome-title {
-            max-width: 400px;
+            max-width: 420px;
         }
         .welcome-subtitle {
             font-size: 1.4em;
@@ -100,12 +101,7 @@
             margin-top: 30px;
             text-align: right;
             vertical-align: top;
-            height: 20%;
             position: absolute;
             right: 0;
-            max-width: 300px;
-        }
-        .welcome-title {
-            max-width: 800px;
         }
     }

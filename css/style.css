@@ -17,8 +17,8 @@
 
 .welcome-title {
     text-align: left;
-    font-size: 8em;
-    line-height: 1.2em;
+    font-size: 6em;
+    line-height: 0.5em;
     color: var(--grey);
     
     font-family: 'Bai Jamjuree', sans-serif;    
@@ -42,17 +42,129 @@
     background: linear-gradient(to bottom, #000000, #485fc7);
     -webkit-background-clip: text;
     color: transparent;
-    color: #292929;
+    color: white;
 
-
-   
+}
+.welcome-title-span2 {
+     font-family: 'Luckiest Guy', sans-serif;
+     font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Audiowide', sans-serif;
+    font-family: 'Jura', sans-serif;
+    
+    font-family: 'Big Shoulders Display', sans-serif;
+    /*font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Matemasie', sans-serif;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Electrolize', sans-serif;
+     font-family: 'Bai Jamjuree', sans-serif;    
+    font-family: 'Jura', sans-serif;
+    font-family: 'Electrolize', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif;
+     
+    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Lilita One', sans-serif; 
+    font-family: 'Audiowide', sans-serif;
+    font-family: 'Matemasie', sans-serif; 
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Unbounded', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;*/
+    font-size: 0.5em;
+    color: #d0ff7a;
+    text-shadow: 1px 1px 0px #29292996;
+     
 
 }
 
+nav.welcome-about {
+    justify-content: people-between;
+    align-items: center;
+    height: unset !important;
+    margin-left: 2em;
+    margin-right: 2em;
+    /*padding: 30px;*/
+    margin-top: 0.4em;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    /*background-color: #f5f3ff;
+    
+    border: 6px dashed var(--lightgrey);
+    border-radius: 50px;*/
+
+
+
+
+}
+
+.welcome-about-right {
+    vertical-align: top;
+    position: relative;
+    padding: 30px;
+    max-width: 65%;
+    margin: auto;
+    color: #0c0c0c;
+    background-color: #e9ff00f7;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Audiowide', sans-serif;
+    font-family: 'Jura', sans-serif;
+    
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Matemasie', sans-serif;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Electrolize', sans-serif;
+     font-family: 'Bai Jamjuree', sans-serif;    
+    font-family: 'Jura', sans-serif;
+    font-family: 'Electrolize', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif;
+     
+    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Lilita One', sans-serif; 
+    font-family: 'Audiowide', sans-serif;
+    font-family: 'Matemasie', sans-serif; 
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Unbounded', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+    color: #383f00;
+    margin-bottom: 12px;
+
+
+
+}
+
+.about-pic {
+    display: inline-block;
+    max-width: 49%;
+}
+
+/*.welcome-title-span {
+    background-color: #e4ffbb;
+}*/
+
+.welcome-subtitle-span {
+    background-color: #e9ff00f7;
+}
+
+.welcome-title-span1 {
+    color:white;
+    text-shadow: 2px 2px 0px #29292996;
+}
+
+
+
 .welcome-subtitle {
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 0.3em;
-    line-height: 2em;
+    line-height: 1em;
     margin-top: 10px;
     /*font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Audiowide', sans-serif;
@@ -79,8 +191,27 @@
     font-family: 'Paytone One', sans-serif;
     font-family: 'Climate Crisis', sans-serif;*/
     font-family: 'Jersey 10', sans-serif;
+    color: #1d1d1df0;
+    text-shadow: 0.5px 0.5px 0px grey;
+
     
    
+}
+
+.videobg {
+    position: relative;
+    z-index: 0;
+    top: 0;
+    min-width: 1200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbarabsolute {
+    position: absolute;
+    top: 0;
+    margin: auto;
+    width: 100%;
 }
 
 .navbar-end {
@@ -101,6 +232,8 @@
     max-width: 300px;
     text-align: center;
     display:inline-block;
+   
+
 }
 
 .social {
@@ -108,6 +241,9 @@
     padding:10px;
 }
 
+ .social a{
+    color: #dfff00;
+}
 .work {
     display: grid;
     justify-items: center;
@@ -140,6 +276,7 @@
     background-color: var(--main);
 }
 
+
 nav.navbar {
     justify-content: people-between;
     align-items: center;
@@ -147,41 +284,57 @@ nav.navbar {
     margin-left: 2em;
     margin-right: 2em;
     padding: 30px;
-    margin-top: 0.4em;
-    background-color: #f5f3ff;
-    /*background-image: url("https://freight.cargo.site/w/1000/q/75/i/f8b1edeb1fcdb53a0a8ecddc3670f4dedcb73aaae6eef82f40495a37bfc42e84/made_by_karan_facebook_messenger_ar_thumb.jpg");
-background-position: center;*/
-
+    padding-top: 50px;
 }
-
 .navbar-burger {https://freight.cargo.site/w/1000/q/75/i/37ea47538bcbebc2ca3d7b7ad0df7ccc394c5f989a5e55115a0c205adb273d6b/made_by_karan_daisies_01.png
     height: 6rem;
 }
 
+.mainbg {
+
+    background-position-y: -15%;
+    /*background-image: url("https://raw.githubusercontent.com/FoxAvenue/FoxAvenue.github.io/main/SRC/imgs/sphere.png");*/
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-y:100px;
+    background-color: white;
+}
+
 .menu {
-    max-width: 600px;
+    max-width: 400px;
     margin-left:auto;
     font-family:"Barlow";
     letter-spacing: 0.13em;
     font-size: 1.1em;
     font-weight: bold;
     font-family: 'Bai Jamjuree', sans-serif;
-    font-family: 'Audiowide', sans-serif;
+    
     font-family: 'Jura', sans-serif;
     font-family: 'Electrolize', sans-serif;
     /*font-family: 'Big Shoulders Display', sans-serif;
     font-family: 'Saira Semi Condensed', sans-serif;
     font-family: 'Michroma', sans-serif;
     font-family: 'Matemasie', sans-serif;
-    font-family: 'Luckiest Guy', sans-serif;*/
-    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;*/
+    font-family: 'Audiowide', sans-serif;
    /*   border: 5px solid blue;
   border-radius: 50%; 
   background-color: transparent;*/
   margin: 30px;
   margin-top: 100px;
-  transform: rotate(5deg);
-
+  
+height: 100%;
+    /*background-image: url("https://raw.githubusercontent.com/FoxAvenue/FoxAvenue.github.io/main/SRC/imgs/sphere.png");
+    transform: rotate(5deg);
+    background-position: top;
+    background-size: 120%;
+    background-repeat: no-repeat;*/
+    top: -10%;
+    z-index: -10;
+     /*background-image: url("https://media.wired.com/photos/59326d5344db296121d6aee9/master/w_2240,c_limit/8552.gif");
+    background-position: center;*/
 
 
 
@@ -351,7 +504,13 @@ section .column img {
 }
 
 .section {
-    padding: 1rem 0rem;
+    
+    border-radius:4px;
+    background-color: #000000e6;
+    width: 100%;
+    margin: auto;
+    /*max-width: 1400px;
+    padding: 1rem 0.3rem;*/
 }
 
 .alittle {
@@ -393,7 +552,7 @@ section .column img {
     margin-bottom: 30px;
     /*margin-left: 20px;*/
     font-size: medium;
-    width: 800px;
+    width: 1000px;
 }
 
 .slide-meta {
@@ -438,9 +597,10 @@ section .column img {
 }
 
 .footer {
-    background-color: var(--dark);
+    
     color: var(--grey);
-    font-weight: 600;
+    /*font-weight: 600;*/
+    background-color: #090909;
     text-align: center;
 }
 
@@ -456,6 +616,9 @@ section .column img {
     margin-top: 3px;
     overflow: hidden;
     border: 0px;
+    border-radius: 2px;
+    /*border: 1px solid grey;*/
+    margin: 0.3em;
 }
 
 .image-box img {
@@ -566,4 +729,8 @@ section.work .columns .column {
   height: 100px;
   background-color: #4CAF50;
   animation: shapeChange 8s infinite;
+
+.contacts {
+    max-width: 500px;
+
 }
