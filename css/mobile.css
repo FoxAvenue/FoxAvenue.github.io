@@ -1,6 +1,14 @@
 
 
 @media (max-width: 768px) {
+    .menu a {
+        line-height: 0.5em;
+    }
+    .navbarabsolute {
+        position: relative;
+        background-color: #202020;
+        padding: 20px;
+    }
 
     .slide-info {
         margin-top: 20px;
@@ -79,28 +87,41 @@
         padding-bottom: 20px;
     }
         .menu {
-        max-width: 200px;
-        margin:auto;
-        margin-top: 20px;
+        /*max-width: 200px;*/
+        margin-right: 0;
+        margin-top: 0;
         display: grid;
         text-align: center;
     }
+    .a-clean {
+
+    }
     nav.navbar {
-        display:grid;
+        display:block;
+        padding: 10px;
     }
     .navbar-middle {
-        display: block;
+        display: flex;
     }
     .welcome-subtitle {
         font-size: 1.5em;
+        padding-top: 0.5em;
     }
     .welcome-title {
         max-width: 500px;
         font-size: 3em;
     }
     .menu{
-        margin-top: 40px;
+        /*margin-top: 40px;*/
         padding-top: 0;
+        position: relative;
+        right: 0;
+        display: block;
+        max-width: auto;
+        font-size: 0.8em;
+        width: 50%;
+        text-align: right;
+
     }
     .welcome-about-right {
         display: block;
@@ -120,15 +141,36 @@
     }
     .welcome-title-span2 {
         font-size: 1em;
+        color: #ffffff8f;
+        text-shadow: 0 0 0 black;
     }
 
 }
 
 @media (max-width: 540px) {
     .welcome-title {
-            font-size: 2.1em;
+            font-size: 1.7em;
+            line-height: 0.8em;
         }
     .welcome-subtitle {
-            font-size: 1em;
+            font-size: 0.7em;
         }
+        .menu {
+            margin:0;
+            text-align: center;
+            max-width: 40%;
+            font-size:0.6em;
+        }
+         .navbarabsolute {
+            padding: 3px;
+        }
+        .welcome-subtitle-span {
+            letter-spacing: 0.25em;
+            background-color: white;
+        }
+        a.active {
+            color: white;
+            border-color: #dfff00;
+        }
+
     }
