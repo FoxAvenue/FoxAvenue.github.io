@@ -11,6 +11,7 @@ body {
         background-image: url("https://raw.githubusercontent.com/FoxAvenue/FoxAvenue.github.io/main/SRC/imgs/BG.png");
     background-size: 30%;
     background-position-y: -100px;
+    overflow-x: hidden;
 
 }
 
