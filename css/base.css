@@ -6,12 +6,12 @@ html {
 body {
     min-height: 100%;
 /*    font-size: large;*/
-    color: var(--white);
-    background-color: white;
-        background-image: url("https://raw.githubusercontent.com/FoxAvenue/FoxAvenue.github.io/main/SRC/imgs/BG.png");
+    color: grey;
     background-size: 30%;
     background-position-y: -100px;
     overflow-x: hidden;
+    background-color: #1a1a1a;
+    background-color: #fbfbfb;
 
 }
 
@@ -35,8 +35,7 @@ h6 {
     line-height: 1.3em;
     margin: 30px 0 20px 0;
     font-family: 'Climate Crisis';
-    color: #e5ff3d!important;
-    text-shadow: 1px 1px 2px #41414175;
+    color: #d2ffb7!important;
 
 }
 
@@ -66,7 +65,7 @@ h6 {
 
 .footer {
     font-size: medium;
-    padding: 3rem 1.5rem 2rem;
+    padding: 1rem 1rem 0.5rem;
 }
 
 header {
@@ -76,7 +75,7 @@ header {
 
 a {
     margin-bottom: 2px;
-    color: var(--white);
+    color: #3a3a3a;
     text-decoration: none;
     word-break: break-word;
     font-weight: normal;
@@ -84,16 +83,20 @@ a {
     
 }
 
-a:hover,
-a.active {
-    color: #dfff00;
-    font-weight: bolder;
+a:hover {
+    color: #485fc7;
+    border-bottom: 1.5px solid var(--white);
 }
 
 
-a:hover,
 a.active {
-    border-bottom: 1.5px solid var(--magenta);
+    color: #474747;
+}
+
+
+
+a.active {
+    border-bottom: 3px solid #c4ff68;
 }
 
 .a-clean:hover,
@@ -113,3 +116,4 @@ a-clean.active {
     text-shadow: none;
     color: #fff;
 }
+

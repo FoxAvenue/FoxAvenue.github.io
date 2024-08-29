@@ -144,3 +144,31 @@ function processSwipe(touchStartX, touchEndX, touchStartY, touchEndY) {
         plusSlides(+1);
     }
 }
+
+function formatDate(dateString) {
+                                                // Создаем объект даты из строки
+                                                const date = new Date(dateString);
+
+                                                // Опции для форматирования: только месяц (длинный формат) и год
+                                                const options = { year: 'numeric', month: 'long' };
+
+                                                // Форматируем дату в нужный формат "August, 2024"
+                                                return date.toLocaleDateString('en-US', options);
+                                            }
+
+                                            // Функция для форматирования содержимого конкретного элемента
+                                            function updateDate(elementId) {
+                                                // Находим элемент по его id
+                                                const element = document.getElementById(elementId);
+
+                                                if (element) {
+                                                    // Получаем текстовое содержимое элемента, предполагая, что это дата
+                                                    const dateString = element.textContent.trim();
+
+                                                    // Форматируем дату
+                                                    const formattedDate = formatDate(dateString);
+
+                                                    // Устанавливаем отформатированное значение в текстовое содержимое элемента
+                                                    element.textContent = formattedDate;
+                                                }
+                                            }
