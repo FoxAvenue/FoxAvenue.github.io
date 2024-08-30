@@ -1,5 +1,4 @@
 .SliderDescr {
-    position: absolute;
     z-index: 100;
     top: 0;
     right: 0;
@@ -55,7 +54,7 @@
             font-size: 16px;
             display: block;
             margin: auto;
-            font-family: 'Bai Jamjuree', sans-serif;    
+            /*font-family: 'Bai Jamjuree', sans-serif;    
             font-family: 'Jura', sans-serif;
             font-family: 'Electrolize', sans-serif;
             font-family: 'Big Shoulders Display', sans-serif;
@@ -69,7 +68,7 @@
             font-family: 'Unbounded', sans-serif;
             font-family: 'Jersey 10', sans-serif;
             
-            font-family: 'Paytone One', sans-serif;
+            font-family: 'Paytone One', sans-serif;*/
             font-family: 'Climate Crisis', sans-serif;
         }
 
@@ -117,7 +116,7 @@
     line-height: 0.5em;
     color: var(--grey);
     
-    font-family: 'Bai Jamjuree', sans-serif;    
+    /*font-family: 'Bai Jamjuree', sans-serif;    
     font-family: 'Jura', sans-serif;
     font-family: 'Electrolize', sans-serif;
     font-family: 'Big Shoulders Display', sans-serif;
@@ -131,7 +130,7 @@
     font-family: 'Unbounded', sans-serif;
     font-family: 'Jersey 10', sans-serif;
     
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Paytone One', sans-serif;*/
     font-family: 'Climate Crisis', sans-serif;
     color: var(--magenta);
     
@@ -147,7 +146,7 @@
     font-family: 'Audiowide', sans-serif;
     font-family: 'Jura', sans-serif;
     
-    font-family: 'Big Shoulders Display', sans-serif;
+  
     /*font-family: 'Saira Semi Condensed', sans-serif;
     font-family: 'Michroma', sans-serif;
     font-family: 'Matemasie', sans-serif;
@@ -167,8 +166,9 @@
     font-family: 'Unbounded', sans-serif;
     font-family: 'Paytone One', sans-serif;
     font-family: 'Climate Crisis', sans-serif;*/
+    font-family: 'Big Shoulders Display', sans-serif;
     font-size: 0.9em;
-    color: #4a4a4a;
+    color: #2d2d2d;
     
      
 
@@ -205,7 +205,7 @@ nav.welcome-about {
     margin: auto;
     color: #c8ff66;
     background-color: #245a88;
-    font-family: 'Bai Jamjuree', sans-serif;
+    /*font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Audiowide', sans-serif;
     font-family: 'Jura', sans-serif;
     
@@ -228,7 +228,7 @@ nav.welcome-about {
     font-family: 'Michroma', sans-serif;
     font-family: 'Unbounded', sans-serif;
     font-family: 'Paytone One', sans-serif;
-    font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Climate Crisis', sans-serif;*/
     font-family: 'Jersey 10', sans-serif;
     font-size: 3em;
     line-height: 1em;
@@ -252,7 +252,7 @@ nav.welcome-about {
 }
 
 .welcome-title-span1 {
-    color:#2d2d2d;
+    color:#202020;
 }
 
 
@@ -394,11 +394,11 @@ nav.navbar {
     letter-spacing: 0.13em;
     font-size: 0.95em;
    
-    font-family: 'Bai Jamjuree', sans-serif;
+    /*font-family: 'Bai Jamjuree', sans-serif;
     
     font-family: 'Jura', sans-serif;
     font-family: 'Electrolize', sans-serif;
-    /*font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-family: 'Saira Semi Condensed', sans-serif;
     font-family: 'Michroma', sans-serif;
     font-family: 'Matemasie', sans-serif;
@@ -457,13 +457,13 @@ img.logo {
     font-size: smaller;
 }
 body {
-    font-family: 'Chivo';
+    /*font-family: 'Chivo';
        font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Audiowide', sans-serif;
     font-family: 'Jura', sans-serif;
     
     font-family: 'Big Shoulders Display', sans-serif;
-    font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif;*/
     font-family: 'Michroma', sans-serif;
     /*font-family: 'Matemasie', sans-serif;
     font-family: 'Luckiest Guy', sans-serif;
@@ -617,6 +617,8 @@ section .column img {
     color: #0000008c;
     margin: 0.3em;
     font-family: 'Audiowide', sans-serif;
+    display: flex;
+    margin-bottom: 0.5em;
 
 }
 .sliderdate {
@@ -632,19 +634,19 @@ section .column img {
     font-size: 0.75em;
 }
 .SliderTitle {
-    color: #0000009c;
-    font-size: 1em;
+    color: #000000;
+    font-size: 1.3em;
     background-color: #ffffff1c;
     border-radius: 2px;
     padding: 0.3em;
     border: 1px solid #00000045;
     right: 0;
-    font-family: 'Bai Jamjuree', sans-serif;
+    /*font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Audiowide', sans-serif;
     font-family: 'Jura', sans-serif;
     
-    font-family: 'Big Shoulders Display', sans-serif;
-    /*font-family: 'Saira Semi Condensed', sans-serif;
+   
+    font-family: 'Saira Semi Condensed', sans-serif;
     font-family: 'Michroma', sans-serif;
     font-family: 'Matemasie', sans-serif;
     font-family: 'Luckiest Guy', sans-serif;
@@ -664,9 +666,39 @@ section .column img {
     font-family: 'Paytone One', sans-serif;
     font-family: 'Climate Crisis', sans-serif;
     font-family: 'Jersey 10', sans-serif;*/
+     font-family: 'Big Shoulders Display', sans-serif;
+    border-radius: 20px;
+    margin-right: 0.2em;
+
+}
+#slidertitle:hover {
+    background-color: grey;
+    transition: background-color 1s ease;
 }
 .SliderDetails {
+
     font-size: 1em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 2em;
+    color: white;
+    padding: 0.2em;
+    top: 50%; /* Смещаем блок на 50% от верха родительского блока */
+  left: 50%; /* Смещаем блок на 50% от левого края родительского блока */
+  transform: translate(-50%, -50%); 
+}
+.horizontal {
+    font-size: 1em;
+}
+.imgcont:hover .SliderDetails  {
+        opacity: 1;
+}
+.imgcont {
+    position: relative;
+    cursor: pointer;
 }
 
 .section {
@@ -675,7 +707,6 @@ section .column img {
     /*max-width: 1400px;*/
 
 }
-
 .alittle {
     max-width: 920px;
 }
@@ -730,8 +761,6 @@ section .column img {
 }
 
 .slide-meta-title {
-    text-align: center;
-    height: 70px;
     font-size: xx-large;
     margin-bottom: 2em;
     letter-spacing: 0.1em;
@@ -784,6 +813,7 @@ section .column img {
     /*border: 1px solid grey;*/
     margin: 0.3em;
     position: relative;
+    margin-bottom: 2em;
 }
 
 .image-box img {
@@ -793,9 +823,7 @@ section .column img {
     transform: scale(1);
 }
 
-.image-box:hover img {
-    transform: scale(1.03);
-}
+
 
 .slide-imgs .columns {
     margin: unset;
@@ -905,12 +933,14 @@ section.work .columns .column {
 }
 .askus {
     font-size: 2em;
-    max-width: 65%;
+    width: 65%;
     margin-top: 1em;
     margin: auto;
-    color: #585858;
+    color: #393838;
     margin-bottom: 2em;
     margin-top: 1em;
+
+
 
 
 }
@@ -955,19 +985,17 @@ section.work .columns .column {
 }
 
 svg {
-    width: 100%
+    width: 100%;
+    fill: #4f4f4f;
 }
 
 .content p {
     margin-left: 0.2em;
     margin-right: 0.2em;
 }
-
-
-
-
-
-
+.a-clean {
+    color: #aeaeae;
+}
 
 
 

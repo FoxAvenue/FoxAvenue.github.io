@@ -73,9 +73,9 @@
         display: block;
     }
     .slide-meta-title {
-        margin-bottom: 0.9em;
-        padding-left: 30px;
-        margin-top: 1em;
+        padding: 0 30px;
+        margin-left: 0;
+
     }
     .slide img {
         max-width: 100%;

@@ -30,12 +30,11 @@ h3,
 h4,
 h5,
 h6 {
-    color: #bfbfbf;
     font-weight: light;
     line-height: 1.3em;
     margin: 30px 0 20px 0;
     font-family: 'Climate Crisis';
-    color: #d2ffb7!important;
+    color: #c5c5c5!important;
 
 }
 
@@ -75,7 +74,7 @@ header {
 
 a {
     margin-bottom: 2px;
-    color: #3a3a3a;
+    color: #363636;
     text-decoration: none;
     word-break: break-word;
     font-weight: normal;

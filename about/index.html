@@ -141,7 +141,7 @@
 
 </div>
 
-        <video  class = "videobg" height="100%" autoplay muted playsinline loop>
+        <video  class = "videobg" height="100%" playsinline autoplay muted loop>
             <source src="https://github.com/FoxAvenue/FoxAvenue.github.io/raw/main/SRC/tetris_h.mp4" type="video/mp4">
                 <p>Sorry, Your Browser Doesn't Support Embedded Videos. Here's the <a href="https://www.youtube.com/watch?v=yDzQDeaW6O8">Link to the video</a></p>
         </video>
@@ -191,23 +191,19 @@
 					
 					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.3/css/all.min.css">
 <style>
-    .welcome-title-span1 {
-        color: #2b2b2b;
-    }
-    .welcome-title-span2 {
-        color: #4d4d4d;
-    }
+
     .welcome-subtitle {
         color: #545454d6;
 
     }
+    
 </style>
 <!--<img src="https://images.squarespace-cdn.com/content/v1/5661de61e4b00ea0da1c158c/1562685309197-1IDNUU671VOJ9UGH35ZW/d7103679768377.5ccd6eb4c89df.jpg?format=2500w">-->
 <!--<div style = "margin-left: -700px; width: max-content;">
 	<img src="/eternity.png">
 </div>-->
 <div class = "about-top">
-	<p><h1>About</h1>
+	<p><h1  class="">About</h1>
         Hi! We are Fox Avenue - creative studio specializing in the creation of commercial advertising graphics.
         Feel free to contact us with any creative request for your advertising campaign.</p>
 </head>
@@ -238,10 +234,6 @@
 		display: none;
 	}
 	 
-	a {
-		color: #424242;
-	}
-
 	.welcome-title-span1 {
     	 
 	}
@@ -259,14 +251,17 @@
     	text-shadow: none;
     }
     body {
-    	color: var(--lightgrey);
+    	color: var(--grey);
     }
+    .a-clean{
+    		color: #363636;
+    } 
 
 </style>
 <div class = "contacts">
 <div class="contactus">
-    <div class = "askus">
-    <span>Feel free to contact us about opportunities for your business</span>
+    <div class = "askus text-pop-up-top">
+    <span class = "">Feel free to contact us about opportunities for your business</span>
 </div>
 <div class="form-container">
         <form id="contactForm" action="https://formspree.io/f/myzgogwj" method="POST">
