@@ -13,21 +13,21 @@
     z-index: 0;
     background-color: #fdfdfd9c;
     backdrop-filter: blur(11px);
-    background-image: url("https://labs.noomoagency.com/images/footerPatern.png");
+    background-image: url("/img/MenuPatern.png");
     background-size: 50%;
 }
 
 .mobilemenu {
     top: 0;
     position: absolute;
-    z-index: 100;
+    z-index: 1;
     justify-content: center;
     align-items: center;
     margin: 0;
     display: flex;
     width: 100vw;
     height: 100vh;
-    padding-top: 8em;
+    padding-top: 7em;
 }
 
 .buttoncont {
@@ -57,8 +57,8 @@ label[for="burgerid"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   border: 1px solid transparent;
   position: relative;
   cursor: pointer;
@@ -68,8 +68,8 @@ label[for="burgerid"] {
 
 }
 .menu-button:hover {
-    width: 65px;
-  height: 65px;
+    width: 40px;
+  height: 40px;
 
 }
 
@@ -146,8 +146,8 @@ border-right: none;
 
 /* Изменения при активации чекбокса */
 .menu-toggle:checked ~ .buttoncont > .menu-button {
-  width: 75px;
-  height: 75px;
+  width: 45px;
+  height: 45px;
 }
 .menu-toggle:checked ~ .mobilemenubg {
   opacity:1;  
@@ -185,7 +185,7 @@ border-right: none;
     padding-top: 0;
   height: 0;
 
-    > a {
+    > a.mobilea{
         display: none;
         opacity: 0;
         transition: 1s ease;
@@ -212,7 +212,7 @@ border-right: none;
 }
 
 
-
+a.desktop-a {display: none}
 
 a.active {
     border-bottom: 1px solid black;
@@ -240,7 +240,7 @@ a.active {
 #burgerid:checked ~.mobilemenubg > .menu {
     height: 100vh;
   
-  >a {
+  >a.mobilea {
     opacity:1;
     transition-delay: 0.35s;
   }
@@ -256,7 +256,7 @@ a.active {
 
 
     nav.navbar {
-        width: 100%;
+        width: 50%;
         margin-left: unset;
         margin-right: unset;
         display: flex;

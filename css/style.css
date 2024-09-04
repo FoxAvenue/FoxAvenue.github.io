@@ -359,7 +359,6 @@ nav.welcome-about {
     display: flex;
     justify-content: space-between;
     position: relative;
-    z-index: -9;
     vertical-align:top;
 }
 
@@ -417,6 +416,8 @@ nav.navbar {
     align-items: center;
     height: unset !important;
     padding: 18px;
+    width: 100%;
+
 
 }
 .navbar-burger {https://freight.cargo.site/w/1000/q/75/i/37ea47538bcbebc2ca3d7b7ad0df7ccc394c5f989a5e55115a0c205adb273d6b/made_by_karan_daisies_01.png

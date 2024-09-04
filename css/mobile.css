@@ -178,10 +178,6 @@
             font-size: 0.7em;
             padding-top: 0em;
         }
-
-         .navbarabsolute {
-            padding: 3px;
-        }
         .welcome-subtitle-span {
             letter-spacing: 0.25em;
         }
@@ -208,6 +204,10 @@
             margin-right: auto;
             margin-left: unset;
             width: unset;
+        }
+        .buttoncont {
+            width: 50px;
+            height: 50px;
         }
 
     }
