@@ -148,6 +148,55 @@
 }
 
 @media (max-width: 540px) {
+
+.runningwordscont {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Скрытие текста, когда он выходит за границы */
+  white-space: nowrap; /* Текст в одну строку */
+  box-sizing: border-box;
+}
+
+
+.titlerun1 {
+  display: block;
+   /* Начальное смещение текста за пределы видимой области */
+  animation: titlerun1 30s linear infinite; /* Анимация текста */
+}
+.titlerun2 {
+  display: block;
+  padding-left: 0; /* Начальное смещение текста за пределы видимой области */
+  animation: titlerun2 30s linear infinite; /* Анимация текста */
+}
+
+
+
+@keyframes titlerun1 {
+  0% {
+    transform: translateX(0%); /* Начальная позиция текста */
+  }
+  100% {
+    transform: translateX(-100%); /* Конечная позиция текста, когда весь текст выходит за левую границу */
+  }
+}
+@keyframes titlerun2 {
+  0% {
+    transform: translateX(-100%); /* Начальная позиция текста */
+  }
+  100% {
+    transform: translateX(0%); /* Конечная позиция текста, когда весь текст выходит за левую границу */
+  }
+}
+
+
+
+
+
+    #welcometextdesk {
+    display: none;
+}
+
     .masknavbar {
         font-size: 33.3vw;
         line-height: 1.1em;
