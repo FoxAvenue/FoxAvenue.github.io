@@ -103,7 +103,7 @@
     }
     nav.navbar {
         display:block;
-        padding: 10px;
+        padding: 30px;
     }
     .navbar-middle {
         display: flex;
@@ -208,6 +208,9 @@
         .buttoncont {
             width: 50px;
             height: 50px;
+        }
+        nav.navbar {
+            padding: 10px;
         }
 
     }
