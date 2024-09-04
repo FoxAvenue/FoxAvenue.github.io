@@ -1,4 +1,260 @@
 @media (max-width: 1024px) {
+
+.mobilemenu {
+    display: unset;
+}
+
+.mobilemenubg {
+    background-color: grey;
+   opacity:0;
+   height: 100vh;
+    width: 100vw;
+    transition: 1s;
+    z-index: 0;
+    background-color: #fdfdfd9c;
+    backdrop-filter: blur(11px);
+    background-image: url("https://labs.noomoagency.com/images/footerPatern.png");
+    background-size: 50%;
+}
+
+.mobilemenu {
+    top: 0;
+    position: absolute;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 8em;
+}
+
+.buttoncont {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+
+label[for="burgerid"] {
+    display: flex;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* Стили кнопки-метки */
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid transparent;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+/*  margin-left: 70%;
+  margin-bottom: ;*/
+
+}
+.menu-button:hover {
+    width: 65px;
+  height: 65px;
+
+}
+
+.boxes {
+  position: absolute;
+  width:10px;
+  height: 10px;
+  border:1px solid black;
+  margin-bottom: 0!important;
+}
+.box1 {
+  left: 0;
+  top: 0;
+  border-bottom: none;
+  border-right: none;
+}
+.box2 {
+left: 0;
+bottom: 0;
+border-right: none;
+ border-top: none;
+}
+.box3 {
+  top: 0;
+  right: 0;
+  border-bottom: none;
+  border-left: none;
+}
+.box4 {
+  bottom: 0;
+  right: 0;
+   border-left: none;
+   border-top: none;
+}
+/* Плюс в центре кнопки */
+.plus {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+ 
+}
+
+.plus::before,
+.plus::after {
+  content: '';
+  position: absolute;
+  background-color: black;
+  transition: all 0.3s ease;
+}
+
+.plus::before {
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  transform: translateY(-50%);
+}
+
+.plus::after {
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  transform: translateX(-50%);
+}
+
+/* Уголки вокруг кнопки */
+
+
+
+
+
+/* Изменения при активации чекбокса */
+.menu-toggle:checked ~ .buttoncont > .menu-button {
+  width: 75px;
+  height: 75px;
+}
+.menu-toggle:checked ~ .mobilemenubg {
+  opacity:1;  
+}
+
+ 
+.menu-toggle:checked ~ .buttoncont > .menu-button > .plus {
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    
+    flex-direction: column;
+    width: 100%;
+    /* margin: auto; */
+    margin-right: 1em;
+    max-width: unset;
+    text-align: right;
+     transition: .5s;
+     gap: unset;
+    background-size: 50%;
+    padding-top: 0;
+  height: 0;
+
+    > a {
+        display: none;
+        opacity: 0;
+        transition: 1s ease;
+        transition-delay: 0.1s;
+        text-align: left;
+        font-size:  4em;
+        display: flex;
+        justify-content: center;
+        line-height: unset;
+        font-family: 'Big Shoulders Display';
+        font-weight: bold;
+
+    > svg {
+
+        transform: scale(0.5);
+        display: unset;
+
+        max-width: 100px;
+    }
+}
+}
+.tagtitle {
+    font-size: 12.4vw;
+}
+
+
+
+
+a.active {
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.menuplusburger {
+    /* display: flex; */
+    justify-content: right;
+    flex-direction: column;
+    text-align: right;
+    position: absolute;
+    transform-origin: center;
+    right: 0;
+    transform: scalex(1.05);
+    /* transform-origin: center; */
+    width: 100%;
+    
+    z-index: 0;
+   
+}
+#burgerid {
+    display: none;
+}
+#burgerid:checked ~.mobilemenubg > .menu {
+    height: 100vh;
+  
+  >a {
+    opacity:1;
+    transition-delay: 0.35s;
+  }
+}
+
+
+
+
+.a.active {
+    color: #5c9bff;
+}
+
+
+
     nav.navbar {
         width: 100%;
         margin-left: unset;
@@ -80,7 +336,21 @@
     .slide img {
         max-width: 100%;
     }
+    .form-container {
+        flex-direction: column;
+    }
+    #contactForm {
+     padding-left: unset;
+ }
+ .formdescr {
+    width: 75%;
+    padding-right: 10em;
+    margin-bottom: 5em;
+}
 
+.burger {
+    display: unset;
+}
 
 }
 @media (max-width: 1224px) {
@@ -103,3 +373,5 @@
         }
 
     }
+
+

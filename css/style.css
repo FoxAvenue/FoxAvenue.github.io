@@ -1,3 +1,12 @@
+#burgerid,
+label[for="burgerid"] {
+    display: none;
+}
+.mobilemenu {
+    display: none;
+}
+
+
 .SliderDescr {
     z-index: 100;
     top: 0;
@@ -10,13 +19,16 @@
 }
 
 .form-container {
-    padding: 20px;
+    padding: 15px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
     width: 100%;
-    max-width: 400px;
     margin: auto;
     margin-bottom: 2em;
-    border: 1px solid #3a3a3a;
+    display: flex;
+
+}
+.formdescr {
+    width:30%;
 }
 
 
@@ -25,18 +37,16 @@
             text-align: center;
         }
 
-        input,
-        textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #333;
-            border-radius: 5px;
-            background-color: #333;
-            color: #fff;
-
-        }
-
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #333;
+        background-color: #333;
+        color: black;
+        padding-top: 0;
+        padding-bottom: 2.5em;
+    }
         textarea {
             height: 100px;
             resize: none;
@@ -51,7 +61,7 @@
             background-color: #abff78;
             color: black;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 1.3em;
             display: block;
             margin: auto;
             /*font-family: 'Bai Jamjuree', sans-serif;    
@@ -68,8 +78,9 @@
             font-family: 'Unbounded', sans-serif;
             font-family: 'Jersey 10', sans-serif;
             
-            font-family: 'Paytone One', sans-serif;*/
-            font-family: 'Climate Crisis', sans-serif;
+            font-family: 'Paytone One', sans-serif;
+            font-family: 'Climate Crisis', sans-serif;*/
+              font-family: 'Audiowide', sans-serif;
         }
 
         button:hover {
@@ -90,11 +101,37 @@
             margin-top: 20px;
         }
         .contacth {
-            color: #313131!important;
-        }
-        #contactForm input, textarea{
-            background-color: white;
-        }
+        color: var(--darkgrey);
+        font-family: 'Jersey 10'; 
+    font-family: 'Jura', sans-serif;
+    font-family: 'Electrolize', sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif;     
+    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Lilita One', sans-serif; 
+    font-family: 'Audiowide', sans-serif;
+    font-family: 'Matemasie', sans-serif; 
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Unbounded', sans-serif;
+    font-family: 'Jersey 10', sans-serif;    
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'BaiJamjuree-Regular', sans-serif; 
+    font-weight: lighter;
+    }
+#contactForm input, textarea{
+    border: none;          /* Убирает границы */
+    background: none;      /* Убирает фоновый цвет */
+    outline: none;         /* Убирает контур при фокусе */
+    caret-color: black;    /* Делает курсор (каретку) черного цвета */
+    font-size: 16px;       /* Задает размер шрифта */
+    border-bottom: 1px solid black;
+}
+#contactForm {
+    padding-left: 10em;
+}
+
+
+
 /* WELCOME */
 
 .welcome {
@@ -304,12 +341,12 @@ nav.welcome-about {
 }
 
 .navbarabsolute {
-    position: absolute;
     top: 0;
     margin: auto;
     width: 100%;
     background-color: #fbfbfbde;
     z-index: 1;
+
 }
 
 .navbar-end {
@@ -379,13 +416,15 @@ nav.navbar {
     justify-content: people-between;
     align-items: center;
     height: unset !important;
-    padding: 20px;
+    padding: 18px;
 
 }
 .navbar-burger {https://freight.cargo.site/w/1000/q/75/i/37ea47538bcbebc2ca3d7b7ad0df7ccc394c5f989a5e55115a0c205adb273d6b/made_by_karan_daisies_01.png
     height: 6rem;
 }
-
+.burger {
+    display: none;
+}
 .menu {
     color: #212121;
     max-width: 400px;
@@ -403,13 +442,13 @@ nav.navbar {
     font-family: 'Michroma', sans-serif;
     font-family: 'Matemasie', sans-serif;
     font-family: 'Luckiest Guy', sans-serif;
-    font-family: 'Climate Crisis', sans-serif;*/
+    font-family: 'Climate Crisis', sans-serif;
     font-family: 'Audiowide', sans-serif;
-   /*   border: 5px solid blue;
+   border: 5px solid blue;
   border-radius: 50%; 
   background-color: transparent;*/
+  font-family: 'NeuPlainLight'!important;
   
-height: 100%;
     /*background-image: url("https://raw.githubusercontent.com/FoxAvenue/FoxAvenue.github.io/main/SRC/imgs/sphere.png");
     transform: rotate(5deg);
     background-position: top;
@@ -426,6 +465,8 @@ height: 100%;
   /*border: 5px solid transparent;
   border-image: linear-gradient(45deg, magenta, cyan, yellow) 1;
 border-radius: 50%; Начальная форма круга */
+    display: flex;
+    gap: 0.5em;
 }
 
 
@@ -433,6 +474,7 @@ border-radius: 50%; Начальная форма круга */
 
 a .menu {
     color:black !important;
+
 }
 
 .margin-bottom-50 {
@@ -483,6 +525,7 @@ body {
     font-family: 'Paytone One', sans-serif;
     font-family: 'Climate Crisis', sans-serif;
     font-family: 'Jersey 10', sans-serif;*/
+    font-family: 'Neu', sans-serif;
 
 }
 
@@ -536,7 +579,7 @@ a img {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(1, 1, 1, 0.9);
+    background-color: rgb(26 26 26);
     padding-top: 1.5em;
 }
 
@@ -604,7 +647,7 @@ a img {
 }
 
 .fullheight {
-    min-height: 100vh;
+   /* min-height: 100vh;*/
     width: 100%;
 }
 
@@ -705,6 +748,7 @@ section .column img {
     width: 100%;
     margin: auto;
     /*max-width: 1400px;*/
+    padding-top: 1em;
 
 }
 .alittle {
@@ -761,11 +805,11 @@ section .column img {
 }
 
 .slide-meta-title {
-    font-size: xx-large;
+    font-size: 3em;
     margin-bottom: 2em;
     letter-spacing: 0.1em;
     margin-left: 8px;
-    font-family: 'Climate Crisis', sans-serif;
+
 }
 
 .text-center {
@@ -821,6 +865,7 @@ section .column img {
     display: block;
     height: auto;
     transform: scale(1);
+    border-radius: 20px;
 }
 
 
@@ -842,6 +887,7 @@ section.work .columns .column {
 
 .about-top: {
     margin-top: 300em;
+    font-size: 3em;
 }
 /* Arrow */
 
@@ -927,7 +973,6 @@ section.work .columns .column {
     padding: 0 2em;
     display: flex;
      justify-content: space-around;
-     max-width: 1200px;
      margin: auto;
 
 }
@@ -945,6 +990,7 @@ section.work .columns .column {
 
 }
 
+
 .social-media-container {
     text-align: right;
     width: 72%;
@@ -959,7 +1005,7 @@ section.work .columns .column {
 .social-links {
     display: flex; /* Используется для выравнивания иконок в одну линию */
     justify-content: right; /* Центрирование иконок */
-    max-width: 400px;
+    max-width: 300px;
     margin-left: auto;
 }
 
@@ -995,7 +1041,131 @@ svg {
 }
 .a-clean {
     color: #aeaeae;
+    z-index: 1;
 }
 
 
 
+/*MASK*/
+
+
+
+.masknavbar {
+    top:50%;
+    left: 50%;
+    width: 100%;
+    /* height: 100%; */
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    color: #f9e3ff;
+    background-color: transparent;
+    position: absolute;
+    font-family: 'Climate Crisis', sans-serif;
+    font-size: 11vw;
+    max-width: 100%;
+    margin-bottom: auto;
+    mix-blend-mode: difference;
+    display: flex;
+}
+.masktext {
+    text-align: left;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.videocontainer {
+    position: relative;
+}
+
+
+.about {
+    font-size: 3em;
+}
+.mainbg {
+    display: flex;
+    display: flex;
+    justify-content: center; /* Центрирует по горизонтали */
+    align-items: center; /* Центрирует по вертикали */
+    width: 100vw; /* 100% ширины экрана */
+    height: 100vh; /* 100% высоты экрана */
+    overflow: hidden; /* Скрывает содержимое, выходящее за пределы контейнера */
+    position: relative;
+    
+}
+.mainbg .navbarabsolute{
+    position: absolute;
+}
+.videocontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.videocontainer video {
+    width: 100%; /* Ширина видео подстраивается под контейнер */
+    height: 100%; /* Высота видео подстраивается под контейнер */
+    object-fit: cover; /* Обеспечивает заполнение контейнера видео */
+    display: block;
+}
+.tagtitle {
+    font-size: 7.4vw;
+    display: flex;
+    color: #212121;
+    padding-bottom: 0.3em;
+    padding: 0 0.1em.3em 0.1em;
+
+}
+
+
+
+.arrowtitle {
+
+}
+.arrowinfo {
+    width: 3em;
+    font-size: 0.3em;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation-delay: 0.3s;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.2em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.abouttitle {
+    font-family: 'Neu';
+    font-weight: bold;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+.abouttitle svg {
+    width: auto;
+}
