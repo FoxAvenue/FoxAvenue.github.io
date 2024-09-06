@@ -171,7 +171,6 @@
 }
 
 
-
 @keyframes titlerun1 {
   0% {
     transform: translateX(0%); /* Начальная позиция текста */
@@ -193,17 +192,17 @@
 
 
 
-    #welcometextdesk {
+/*    #welcometextdesk {
     display: none;
-}
-
+}*/
+/*
     .masknavbar {
         font-size: 33.3vw;
         line-height: 1.1em;
         color: #f5ceff;
         opacity: 0.9;
 
-    }
+    }*/
     .masktext {
         text-align: center;
     }
@@ -261,5 +260,6 @@
         nav.navbar {
             padding: 10px;
         }
+      
 
     }

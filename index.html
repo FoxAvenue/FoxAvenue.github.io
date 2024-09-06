@@ -63,6 +63,8 @@
 </style>
 
 	<script src="https://kit.fontawesome.com/bf18cd1a66.js" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -189,17 +191,17 @@
                                 
                                     
                                     
-                                   <a class=" grid1 desktop-a" class="0" href="/tags/mixedreality/">[mixed reality]</a><br>
+                                   <span class="acont"><a class=" grid1 desktop-a" data-text="[mixed reality]" class="0" href="/tags/mixedreality/"><span class="brace">[</span>mixed reality<span class="brace">]</span></a></span><br>
                                 
                                 
                                     
                                     
-                                   <a class=" grid2 desktop-a" class="1" href="/tags/nature/">[nature]</a><br>
+                                   <span class="acont"><a class=" grid2 desktop-a" data-text="[nature]" class="1" href="/tags/nature/"><span class="brace">[</span>nature<span class="brace">]</span></a></span><br>
                                 
                                 
                                     
                                     
-                                   <a class=" grid3 desktop-a" class="2" href="/about/">[about]</a><br>
+                                   <span class="acont"><a class=" grid3 desktop-a" data-text="[about]" class="2" href="/about/"><span class="brace">[</span>about<span class="brace">]</span></a></span><br>
                                 
                                 
                      
@@ -246,17 +248,17 @@
                                 
                                     
                                     
-                                   <a class=" grid1 mobilea" class="0" href="/tags/mixedreality/">[mixed reality]</a><br>
+                                   <span class="acont"><a class=" grid1 mobilea" class="0" data-text="[mixed reality]" href="/tags/mixedreality/">[mixed reality]</a></span><br>
                                 
                                 
                                     
                                     
-                                   <a class=" grid2 mobilea" class="1" href="/tags/nature/">[nature]</a><br>
+                                   <span class="acont"><a class=" grid2 mobilea" class="1" data-text="[nature]" href="/tags/nature/">[nature]</a></span><br>
                                 
                                 
                                     
                                     
-                                   <a class=" grid3 mobilea" class="2" href="/about/">[about]</a><br>
+                                   <span class="acont"><a class=" grid3 mobilea" class="2" data-text="[about]" href="/about/">[about]</a></span><br>
                                 
                                 
                      
@@ -430,21 +432,58 @@ animate();
                     <p>Sorry, Your Browser Doesn't Support Embedded Videos. Here's the <a href="https://www.youtube.com/watch?v=yDzQDeaW6O8">Link to the video</a></p>
             </video>
              <div class="masknavbar" type="text" id="text-input">
-            <div class="masktext" id="welcometextdesk">FOX<wbr> AVE<wbr>NUE</div>
-            <div class= "runningwordscont">    
-                <div class=" titlerun titlerun1 ">FOXFOXFOXFOXFOXFOX</div>
-                <div class=" titlerun titlerun2 ">AVEAVEAVEAVEAVEAVE</div>
-                <div class=" titlerun titlerun1 ">NUENUENUENUENUENUE</div>
+            
 
-            </div>
         </div>
+        
 
         </div>
 
-       
+
+
+
+<div id="animation-container" style="width: 100vw; position: absolute;mix-blend-mode: normal;"></div>
+<script>
+  var animation = lottie.loadAnimation({
+    container: document.getElementById('animation-container'), 
+    renderer: 'svg', 
+    loop: true, 
+    autoplay: true, 
+    path: '/img/data3.json' 
+  });
+</script>  
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
     var camera, scene, renderer, mesh;
 var mouseX = 0, mouseY = 0;
